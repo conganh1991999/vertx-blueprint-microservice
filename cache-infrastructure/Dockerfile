@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM openjdk:8
 
 ENV VERTICLE_FILE target/cache-infrastructure-fat.jar
 
